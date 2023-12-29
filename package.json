@@ -3,14 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://devgoel2004.github.io/portfolio-frontend",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^1.6.3",
     "express": "^4.18.2",
+    "gh-pages": "^6.1.1",
     "nodemailer": "^6.9.7",
     "preact": "^10.19.3",
     "react-responsive-carousel": "^3.2.23",

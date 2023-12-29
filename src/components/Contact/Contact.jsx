@@ -90,7 +90,9 @@ const Contact = () => {
                   <i class="fa fa-globe-europe"></i>
                 </a>
                 <h4>Website</h4>
-                <p>https://devgoel2004.github.io/portfolio</p>
+                <a href="https://devgoel2004.github.io/portfolio-frontend">
+                  <p>https://devgoel2004.github.io/portfolio-frontend</p>
+                </a>
               </div>
             </div>
           </div>
