@@ -1,16 +1,15 @@
 {
+  "homepage": "https://devgoel2004.github.io/portfolio-frontend",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://devgoel2004.github.io/portfolio-frontend",
   "scripts": {
     "dev": "vite",
-    "test": "react-scripts test",
-    "build": "react-scripts build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist",
+    "build":"vite build"
   },
   "dependencies": {
     "axios": "^1.6.3",
