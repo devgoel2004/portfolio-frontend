@@ -6,7 +6,8 @@
   "homepage": "https://devgoel2004.github.io/portfolio-frontend",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "test": "react-scripts test",
+    "build": "react-scripts build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"

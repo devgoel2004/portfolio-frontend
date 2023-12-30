@@ -2,8 +2,8 @@ import React from "react";
 import "./Projects.css";
 import chat from "../../assets/Chat.jpg";
 import restaurant from "../../assets/Restaurant.png";
-import weather from "../../assets/weather.jpg";
-import wea from "../../assets/weather.png";
+import weather from "../../assets/Weather.jpg";
+import wea from "../../assets/Weather.png";
 import stackoverflow from "../../assets/stackoverflow.png";
 const Projects = () => {
   return (
